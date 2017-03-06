@@ -11,7 +11,7 @@ Example:
 ```
 
 ## VS Build settings
-![build_settings](/images/VS_build_settings.png)
+![build_settings](/images/VS_build_settings.PNG)
 
 
 # Unity Tips
