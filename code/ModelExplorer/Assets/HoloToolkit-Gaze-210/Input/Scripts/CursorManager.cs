@@ -21,6 +21,7 @@ namespace Academy.HoloToolkit.Unity
         {
             if (CursorOnHolograms == null || CursorOffHolograms == null)
             {
+                print("CursorManager.Awake() null!");
                 return;
             }
 
@@ -35,6 +36,7 @@ namespace Academy.HoloToolkit.Unity
 
             if (GazeManager.Instance == null || CursorOnHolograms == null || CursorOffHolograms == null)
             {
+                print("CursorManager.Update().\n    GazeManager.Instance == null || CursorOnHolograms == null || CursorOffHolograms == null)");
                 return;
             }
 
@@ -47,8 +49,9 @@ namespace Academy.HoloToolkit.Unity
             }
             else
             {
+                print("CursorManager.Update() No hit.");
                 // 2.b: SetActive true CursorOffHolograms to show cursor.
-                CursorOffHolograms.SetActive(true);
+               CursorOffHolograms.SetActive(true);
                 // 2.b: SetActive false CursorOnHolograms to hide cursor.
                 CursorOnHolograms.SetActive(false);
             }

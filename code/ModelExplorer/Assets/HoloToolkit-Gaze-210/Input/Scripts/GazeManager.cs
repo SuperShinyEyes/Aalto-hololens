@@ -93,7 +93,7 @@ namespace Academy.HoloToolkit.Unity
             if (Hit)
             {
                 // If raycast hit a hologram...
-
+                print("Hit!");
                 // 2.a: Assign property Position to be the hitInfo point.
                 Position = hitInfo.point;
                 // 2.a: Assign property Normal to be the hitInfo normal.
