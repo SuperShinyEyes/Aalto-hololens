@@ -170,9 +170,15 @@ public class CursorManager : Singleton<CursorManager>
    }
 ```
 
-###
+### Detach from Unity's physics system.
 ```csharp
+foreach (Collider collider in GameObject.GetComponents<Collider>()) {
+  Destroy(collider);
+}
 
+foreach (Rigidbody rigidbody in GameObject.GetComponents<Rigidbody>()) {
+  Destroy(rigidbody);
+}
 ```
 
 ###
