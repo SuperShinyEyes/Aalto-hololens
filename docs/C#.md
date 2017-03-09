@@ -114,7 +114,7 @@ public class GazeManager : Singleton<GazeManager>
     }
 ```
 
-###
+### Cursor Manager
 ```csharp
 public class CursorManager : Singleton<CursorManager>
    {
