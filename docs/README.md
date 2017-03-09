@@ -33,7 +33,13 @@ Example:
 ![build_settings](/images/VS_build_settings.PNG)
 
 
-# Mirroring/Accessing HoloLens
+## Mirroring/Accessing HoloLens
 1. [Hololens app on Windows 10](https://www.microsoft.com/en-ca/store/p/microsoft-hololens/9nblggh4qwnx)
 2. From a web browser on your PC, go to https://<YOUR_HOLOLENS_IP_ADDRESS>
   * The browser will display the following message: "There’s a problem with this website’s security certificate". This happens because the certificate which is issued to the Device Portal is a test certificate. You can ignore this certificate error for now and proceed.
+
+
+## "My cursor is not showing!" or "My C# scripts are not working" or VS fails to build/attach debugger.
+
+![managers_inspector](/images/managers_inspector.PNG)
+You MUST add-component your scripts to corresponding objects in Unity in order to let Unity use the scripts. 
