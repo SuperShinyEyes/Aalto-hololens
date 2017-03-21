@@ -56,3 +56,12 @@ Users wearing HoloLens will always accommodate to 2.0m to maintain a clear image
 * HoloLens is comfortable rendering 80K triangles simultaneously. Around this value it’s important to craft your shaders carefully because heavy calculation in the fragment shader will have a severe impact on performance.
 * There’s no big impact using StandardFast (HoloToolkit) over the standard PBS shader provided by Unity
 * Mirroring HoloLens screen decreases the performance.
+
+## Hololens Opensource code
+* [Holotoolkit](https://github.com/Microsoft/HoloToolkit)
+* [HoloToolkit-Unity](https://github.com/Microsoft/HoloToolkit-Unity)
+* [HolographicAcademy](https://github.com/Microsoft/HolographicAcademy)
+* [HoloLensCompanionKit](https://github.com/Microsoft/HoloLensCompanionKit)
+* []()
+* []()
+* []()
